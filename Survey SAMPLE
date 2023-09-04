@@ -1,1 +1,71 @@
 
+<!DOCTYPE="html">
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <title>Registration for CO-OP Game Schedule </title>
+     <link rel="stylesheet" href="styles.css" />
+     </head>
+<body>
+  <h1 id="title">
+    Registration for CO-OP Farming Schedule
+    </h1>
+    <p id="description">Sign up to apply to farm in our Teyvat! Depending on demands, some items to farm may not be accepted! </p>
+      <fieldset>
+        <h3>General Information </h3>
+  <form id="survey-form" for="name"> <label id="name-label"> Game Nickname</label> <input id="name" placeholder="Game Nickname" required/></form>  
+
+  <form id="survey-form" for="email"> <label id="email-label">Email</label>  <input id="email" type="email" placeholder="Email" required/> </form>
+ 
+ 
+ <form id="survey-form" for="UID">  <label id="number-label">UID</label>  <input id="number" type="number" min="000000000" max="99999999" placeholder="UID"required/></form>
+
+ 
+
+ <form id="survey-form"> Which Angy Axie are you joining?
+          <select id="dropdown" name="server">
+            <option value="">(select one)</option>
+            <option value="1">zephyrcrux</option>
+            <option value="2">Fae_Daemon</option>
+            <option value="3">Charme_Roses</option>
+            <option value="4">im_meers</option>
+          </select>
+        </form>
+        </fieldset>
+        <fieldset>
+
+          <h3>Which server do you play?</h3>
+<label id="survey-form"> <input type="radio"  value="NA" name="server-type" class="inline"/>North America </label> 
+
+<label id="survey-form"> <input type="radio"  value="ASIA" name="server-type" class="inline"/> Asia </label>
+
+<label id="survey-form"> <input type="radio"  value="EU" name="server-type" class="inline" /> Europe </label>
+
+<label id="survey-form" > <input type="radio"  value="HK,TW,AND MO" name="server-type" class="inline"
+/>Hong Kong, Taiwan, and Macao </label>
+</fieldset>
+
+<fieldset>
+<h3>What item type do you need to farm?</h3>
+<label id="survey-form"><input type="checkbox" value="Minerals" class="inline"/>Minerals</label>
+<label id="survey-form"><input type="checkbox" value="Local-Specialties" class="inline"/>Local Specialties</label>
+<label id="survey-form"><input type="checkbox" value="Materials" class="inline"/>Materials</label>
+<label id="survey-form"><input type="checkbox" value="Domains"class="inline"/>Domains</label>
+<label id="survey-form"><input type="checkbox" value="Monsters" class="inline"/>Monsters</label>
+<label id="survey-form"><input type="checkbox" value="Wood" class="inline"/>Wood</label>
+<label id="survey-form"><input type="checkbox" value="Animals" class="inline"/>Animals</label>
+
+</fieldset>
+
+<fieldset><h3>List all items needed to farm and estimate of how many total you need</h3>
+<label id="survey-form">
+  <textarea placeholder="30 Sunsettia, 15 Shackles, 10 Crystal cores..."></textarea>
+</label>
+</fieldset>
+<form id="survey-form" for="submit">  <input type="submit" value="Submit" id="submit" /> </form>
+
+
+
+  </body>
+ 
+  </html>
